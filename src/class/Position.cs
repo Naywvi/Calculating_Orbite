@@ -1,11 +1,11 @@
 namespace src.Position{
-    class Postion{
+    class Position{
         private int _x;
         public int x{
             get => _x;
             set => _x = value;
         }
-        public string xString{
+        private string xString{
             get => _x.ToString();
         }
         private int _y;
@@ -13,7 +13,7 @@ namespace src.Position{
             get => _y;
             set => _y = value;
         }
-        public string yString{
+        private string yString{
             get => _y.ToString();
         }
         public string myPosition(){

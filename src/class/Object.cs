@@ -5,12 +5,12 @@ namespace src.Object{
             get => _position;
             set => _position = value;
         }
-        public string positionObjStr{
+        private string positionObjStr{
             get => _position.ToString();
         }
 
         private int _weight;
-        public int weightObj{
+        private int weightObj{
             get => _weight;
             set => _weight = value;
         }
