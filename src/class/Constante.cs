@@ -1,4 +1,5 @@
-namespace src.Constante;
-class Constante{
+namespace src.Const{
+    class Const{
     
+    }
 }
