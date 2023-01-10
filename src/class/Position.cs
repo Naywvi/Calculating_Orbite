@@ -1,5 +1,5 @@
 namespace src.Position{
-    class Position{
+    public class Position{
         private int _x;
         public int x{
             get => _x;

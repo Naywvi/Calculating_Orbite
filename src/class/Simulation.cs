@@ -3,10 +3,27 @@ using src.Object;
 
 namespace src.Simulation{
 
-    interface A{/*Planet class*/}
-    interface B{/*Obj*/}
+    public interface A{
+        public class Planet{
+            public PlanetClass constructor(){
+                return new PlanetClass();
+            }
+            //test method
+            public void printer(){
+                Console.WriteLine("test");
+            }
+        }
+    }
+    public interface B{
+        public class Object{
+            public Obj constructor(){
+                return new Obj();
+            }
+            //Crée le constructor ici pour l'object
+        }
+    }
 
-    class Simulation : A,B{
+    abstract class Simulation : A,B{
         private int _speed;
         public int speed{
             get => _speed;
@@ -16,6 +33,12 @@ namespace src.Simulation{
         public int throwingAngle{
             get => _throwingAngle;
             set => _throwingAngle = value;
+        }
+        public void simulation(){
+            var a = new A.Planet();
+            var b = new B.Object();
+            a.constructor();
+            a.printer();
         }
     }
 }

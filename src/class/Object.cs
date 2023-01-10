@@ -1,5 +1,5 @@
 namespace src.Object{
-    class Obj{
+    public class Obj{
         private int _position;
         public int position{
             get => _position;
@@ -10,12 +10,13 @@ namespace src.Object{
         }
 
         private int _weight;
-        private int weightObj{
+        public int weightObj{
             get => _weight;
             set => _weight = value;
         }
-        public string weightObjStr{
+        private string weightObjStr{
             get => _weight.ToString();
         }
+
     }
 }

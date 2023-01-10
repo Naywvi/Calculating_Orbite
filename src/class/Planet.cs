@@ -1,7 +1,7 @@
 using src.Object;
 
 namespace src.Planet {
-    class PlanetClass : Obj{
+    public class PlanetClass : Obj{
         private int _diameter;
         public int diameter{
             get => _diameter;
@@ -13,6 +13,5 @@ namespace src.Planet {
             this.position = position;
             this.diameter = diameter;
         }
-
     }
 }
