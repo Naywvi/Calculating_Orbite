@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nagib/Desktop/planet/planet.csproj": {}
+    "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj": {}
   },
   "projects": {
-    "/Users/nagib/Desktop/planet/planet.csproj": {
+    "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nagib/Desktop/planet/planet.csproj",
-        "projectName": "planet",
-        "projectPath": "/Users/nagib/Desktop/planet/planet.csproj",
-        "packagesPath": "/Users/nagib/.nuget/packages/",
-        "outputPath": "/Users/nagib/Desktop/planet/obj/",
+        "projectUniqueName": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj",
+        "projectName": "Orbite-C-",
+        "projectPath": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj",
+        "packagesPath": "C:\\Users\\naj_l\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nagib/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\naj_l\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

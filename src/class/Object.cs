@@ -1,4 +1,4 @@
+namespace src.Object;
 class Object{
-    private int position;
-    //-a un void ?
+
 }

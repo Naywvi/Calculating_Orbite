@@ -1,3 +1,10 @@
-﻿using static src.class.Postion;
-Console.WriteLine("Hello, World!");
-
+﻿namespace main
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}
