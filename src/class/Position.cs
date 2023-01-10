@@ -17,7 +17,7 @@ namespace src.Position{
             get => _y.ToString();
         }
         public string myPosition(){
-            var postionString = "\n position:  x: "+this.yString+" km \n            y: "+this.xString+" km\n";
+            var postionString = "\n position:  x: "+ this.yString +" km \n            y: "+ this.xString +" km\n";
             return postionString;
         }
     }
