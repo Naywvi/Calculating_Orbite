@@ -1,4 +1,4 @@
-﻿using src.Position;
+﻿using src.Position; // using the Position namespace, planet etc
 using src.Planet;
 using src.Simulation;
 
@@ -8,36 +8,35 @@ namespace main
     {
         static void Main(string[] args)
         {
-            var main = new Program();
+            var main = new Program(); // creates a new object of type Program
+            Console.WriteLine(main._sentences[7]);  // displays the 7th sentence from the _sentences array
 
-            Console.WriteLine(main._sentences[7]);
+            var pos = new Pos(); // creates a new object of type Pos
+            pos.constructorPosition(main.generatePostion(1), main.generatePostion(2)); // calls the constructorPosition function on the pos object
 
-            var pos = new Pos();
-            pos.constructorPosition(main.generatePostion(1), main.generatePostion(2));
+            var planet = new PlanetClass(); // creates a new object of type PlanetClass
+            planet.constructorPlanet(main.generatePostion(3), 0, main.generatePostion(4)); // calls the constructorPlanet function on the planet object
 
-            var planet = new PlanetClass();//Object start pos = 0 need launch
-            planet.constructorPlanet(main.generatePostion(3), 0, main.generatePostion(4));
-
-            var simulation = new Simulation();
-            simulation.constructorSimulation(planet, pos);
+            var simulation = new Simulation(); // creates a new object of type Simulation
+            simulation.constructorSimulation(planet, pos); // calls the constructorSimulation function on the simulation object
         }
 
         private int generatePostion(int sentence)
-        {
-            Console.WriteLine("Please enter" + _sentences[sentence]);
-            var _OstdIn = Console.ReadLine();
+        { // function to generate a position
+            Console.WriteLine("Please enter" + _sentences[sentence]); // prompts the user to enter a position
+            var _OstdIn = Console.ReadLine(); // stores the user's input
             if (sentence == 6)
             {
-                return 0;
+                return 0; // returns 0 if the sentence passed as a parameter is 6
             }
             else
             {
                 if (!int.TryParse(_OstdIn, out int result))
-                {
-                    Console.WriteLine(_sentences[0]);
-                    _OstdIn = Console.ReadLine();
+                { // check if the input is an integer
+                    Console.WriteLine(_sentences[0]); // displays an error message if it is not an integer
+                    _OstdIn = Console.ReadLine(); // gets the input again
                 }
-                return result;
+                return result; // returns the input converted to an integer
             }
 
         }
@@ -54,4 +53,3 @@ namespace main
             };
     }
 }
-//Besoin de récup
