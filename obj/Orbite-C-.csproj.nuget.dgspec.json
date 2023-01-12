@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj": {}
+    "/Users/nagib/Desktop/Orbite-C-/Orbite-C-.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj": {
+    "/Users/nagib/Desktop/Orbite-C-/Orbite-C-.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj",
+        "projectUniqueName": "/Users/nagib/Desktop/Orbite-C-/Orbite-C-.csproj",
         "projectName": "Orbite-C-",
-        "projectPath": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\Orbite-C-.csproj",
-        "packagesPath": "C:\\Users\\naj_l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naj_l\\Desktop\\Orbite-C-\\obj\\",
+        "projectPath": "/Users/nagib/Desktop/Orbite-C-/Orbite-C-.csproj",
+        "packagesPath": "/Users/nagib/.nuget/packages/",
+        "outputPath": "/Users/nagib/Desktop/Orbite-C-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naj_l\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/nagib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
