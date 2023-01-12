@@ -20,9 +20,9 @@ namespace src.Position{
             var postionString = "\n position:  x: "+ this.yString +" km \n            y: "+ this.xString +" km\n";
             return postionString;
         }
-        public void constructorPosition(int x,int y){
-            this.x = x;
-            this.y = y;
+        public void constructorPosition(int xP,int yP){
+            x = xP;
+            y = yP;
         }
     }
 }

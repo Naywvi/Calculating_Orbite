@@ -7,13 +7,23 @@ namespace src.Planet {
             get => _diameter;
             set => _diameter = value;
         }
-        public void showPlanetPosition(){
-            
+
+        private Obj _obj = new Obj();
+        public Obj obj{
+            get => _obj;
+            set => _obj = value;
         }
-        public void constructorPlanet(int weightObj,int position,int diameter){
-            var Obj = new Obj();
-            Obj.constructorObject(weightObj,position);
-            this.diameter = diameter;
+        // public int objWeight{
+        //     get => _obj.weightObj;
+        //     set => _obj.weightObj = value;
+        // }
+        private void generateObject(int weightObj,int position){
+            _obj.constructorObject(weightObj,position);
+        }
+
+        public void constructorPlanet(int weightObj,int position,int diameterP){
+            diameter = diameterP;
+            generateObject(weightObj,position);
         }
     }
 }
