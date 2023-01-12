@@ -13,6 +13,7 @@ namespace src.Planet {
             get => _obj;
             set => _obj = value;
         }
+        
         public void constructorPlanet(int weightObj,int position,int diameterP){
             diameter = diameterP;
             _obj.constructorObject(weightObj,position);

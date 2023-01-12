@@ -1,7 +1,7 @@
 using System.Numerics;
 
 namespace src.Constante{
-    class Const{
+    public class Const{
         private const double _gravity = 9.8;
         public double gravity{
             get => _gravity;
