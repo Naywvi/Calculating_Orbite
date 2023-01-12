@@ -13,17 +13,9 @@ namespace src.Planet {
             get => _obj;
             set => _obj = value;
         }
-        // public int objWeight{
-        //     get => _obj.weightObj;
-        //     set => _obj.weightObj = value;
-        // }
-        private void generateObject(int weightObj,int position){
-            _obj.constructorObject(weightObj,position);
-        }
-
         public void constructorPlanet(int weightObj,int position,int diameterP){
             diameter = diameterP;
-            generateObject(weightObj,position);
+            _obj.constructorObject(weightObj,position);
         }
     }
 }
