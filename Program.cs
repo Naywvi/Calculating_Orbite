@@ -2,36 +2,44 @@
 using src.Planet;
 using src.Simulation;
 
-namespace main{
-    class Program{
-        static void Main(string[] args){
+namespace main
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             var main = new Program();
 
             Console.WriteLine(main._sentences[7]);
 
             var pos = new Pos();
-            pos.constructorPosition(main.generatePostion(1),main.generatePostion(2));
+            pos.constructorPosition(main.generatePostion(1), main.generatePostion(2));
 
             var planet = new PlanetClass();//Object start pos = 0 need launch
             planet.constructorPlanet(main.generatePostion(3), 0, main.generatePostion(4));
-        
+
             var simulation = new Simulation();
-            simulation.constructorSimulation(planet,pos,main.generatePostion(5),main.generatePostion(6));
+            simulation.constructorSimulation(planet, pos);
         }
 
-        private int generatePostion(int sentence){
+        private int generatePostion(int sentence)
+        {
             Console.WriteLine("Please enter" + _sentences[sentence]);
             var _OstdIn = Console.ReadLine();
-            if(sentence == 6){
-            return 0;
-            }else{
-               if (!int.TryParse(_OstdIn, out int result)){
-                Console.WriteLine(_sentences[0]);
-                _OstdIn = Console.ReadLine();
-                } 
+            if (sentence == 6)
+            {
+                return 0;
+            }
+            else
+            {
+                if (!int.TryParse(_OstdIn, out int result))
+                {
+                    Console.WriteLine(_sentences[0]);
+                    _OstdIn = Console.ReadLine();
+                }
                 return result;
             }
-            
+
         }
 
         private string[] _sentences = new string[] {
