@@ -16,9 +16,13 @@ namespace src.Position{
         private string yString{
             get => _y.ToString();
         }
-        public string myPosition(){
+        public string showPosition(){
             var postionString = "\n position:  x: "+ this.yString +" km \n            y: "+ this.xString +" km\n";
             return postionString;
+        }
+        public void constructorPosition(int x,int y){
+            this.x = x;
+            this.y = y;
         }
     }
 }

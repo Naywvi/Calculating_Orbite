@@ -7,10 +7,12 @@ namespace src.Planet {
             get => _diameter;
             set => _diameter = value;
         }
-
-        protected void constructor(int weightObj,int position,int diameter){
-            this.weightObj = weightObj;
-            this.position = position;
+        public void showPlanetPosition(){
+            
+        }
+        public void constructorPlanet(int weightObj,int position,int diameter){
+            var Obj = new Obj();
+            Obj.constructorObject(weightObj,position);
             this.diameter = diameter;
         }
     }
