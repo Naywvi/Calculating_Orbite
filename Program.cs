@@ -40,7 +40,7 @@ namespace main
             }
 
         }
-
+        // array that contains the list of the sentences you can see in terminal
         private string[] _sentences = new string[] {
             "Bad input try again.",
             " a starting x position for your object (km) : ",
