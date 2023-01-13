@@ -7,21 +7,21 @@ namespace src.Simulation
 
     public class Simulation : PlanetClass
     {
-        private int _speed;
-        public int speed
+        private double _speed;
+        public double speed
         {
             get => _speed;
             set => _speed = value;
         }
-        private int _throwingAngle;
-        public int throwingAngle
+        private double _throwingAngle;
+        public double throwingAngle
         {
             get => _throwingAngle;
             set => _throwingAngle = value;
         }
 
         //Constructor simulation
-        public void constructorSimulation(PlanetClass planet, Pos pos, int speedP, int throwingAngleP)
+        public void constructorSimulation(PlanetClass planet, Pos pos, double speedP, double throwingAngleP)
         {
             speed = speedP;
             throwingAngle = throwingAngleP;
