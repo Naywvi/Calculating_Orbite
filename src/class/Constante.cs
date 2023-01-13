@@ -70,20 +70,31 @@ namespace src.Constante
         // this method calculates the Gravity Components 
 
         //ici le F va représenter le résultat de ma force gravitationnelle trouvée grâc au calcul du dessus
-        double CalculateGravityComposantX(double F, double x1, double x2, double distance)
+        public double CalculateGravityComposantX(double F, double x1, double x2, double distance)
         {
             return F * (x2 - x1) / distance;
         }
         // cette methode sera à faire 2 fois pour avoir la composante X et celle de Y
         // ce calcul nous servira pour l'accélération ensuite (il nous faut les composant gravitationnels de x et y)
 
-        (double, double) CalculateAcceleration(double Fx, double Fy, double m, out double ax, out double ay)
+        public (double ax, double ay) CalculateAcceleration(double Fx, double Fy, double m, out double ax, out double ay)
         {
             ax = Fx / m;
             ay = Fy / m;
             return (ax, ay);
         }
-
-
+        public (double vx, double vy) Calculatespeed(double ax, double ay, double t)
+        {
+            double vx = ax * t;
+            double vy = ay * t;
+            return (vx, vy);
+        }
+        public void CalculatePosition(double x0, double y0, double vx, double vy, double t)
+        {
+            double x = vx * t + x0;
+            double y = vy * t + y0;
+            // chaque fois qu'on appelle cette fonction, elle va afficher notre position en fonction du temps grâce à ka vitesse en x et en y.
+            Console.WriteLine("Position : (" + x + ", " + y + ")");
+        }
     }
 }
