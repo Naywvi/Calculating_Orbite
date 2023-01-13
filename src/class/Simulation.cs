@@ -1,7 +1,7 @@
 using src.Planet;
 using src.Object;
 using src.Position;
-
+using src.Constante;
 namespace src.Simulation
 {
 
@@ -23,11 +23,17 @@ namespace src.Simulation
         //Constructor simulation
         public void constructorSimulation(PlanetClass planet, Pos pos, double speedP, double throwingAngleP)
         {
+            var constMethods = new Const();
             speed = speedP;
             throwingAngle = throwingAngleP;
 
             Console.WriteLine(pos.showPosition());
             Console.WriteLine(planet.diameter + " - " + planet.obj.position + " = " + planet.obj.weightObj);
+            Console.WriteLine("Simulation started with speed = " + speed + " and throwing angle = " + throwingAngle);
+            while (pos.y != 0)
+            {
+                (double vectorX, double vectorY) = constMethods.GenerateVectorDirection(throwingAngle, speed);
+            }
         }
     }
 }

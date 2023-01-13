@@ -14,12 +14,12 @@ namespace src.Constante
 
 
         // This method calculates a direction vector from a position, an angle and a speed.
-        public Vector2 generateVectorDirection(double angle, double speed)
+        public (double, double) GenerateVectorDirection(double angle, double speed)
         {
             double angleRad = angle * Math.PI / 180; // convert angle to radian
             double x = speed * Math.Cos(angleRad);
             double y = speed * Math.Sin(angleRad);
-            return new Vector2((float)x, (float)y);
+            return (x, y);
         }
 
         // This method is used to calculate the distance between two objects | using coordinates and diameters between the two objects
