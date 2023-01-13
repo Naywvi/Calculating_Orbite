@@ -23,9 +23,9 @@ namespace src.Constante
         }
 
         // This method is used to calculate the distance between two objects | using coordinates and diameters between the two objects
-        public double generateDistance(double x1, double y1, double diameter1, double x2, double y2, double diameter2)
+        public double generateDistance(double x1, double y1, double planetDiameter, double x2, double y2)
         {
-            double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + (Math.Pow((diameter1 + diameter2) / 2, 2)));
+            double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + (Math.Pow((planetDiameter) / 2, 2)));
             return distance;
         }
 
@@ -56,11 +56,10 @@ namespace src.Constante
             double vy = ay * t;
             return (vx, vy);
         }
-        public void CalculatePosition(double x0, double y0, double vx, double vy, double t)
+        public void CalculatePosition(double x0, double y0, double vectorX, double vectorY, double t, double g)
         {
-            double x = vx * t + x0;
-            double y = vy * t + y0;
-            // chaque fois qu'on appelle cette fonction, elle va afficher notre position en fonction du temps grâce à ka vitesse en x et en y.
+            double x = x0 + vectorX * t;
+            double y = y0 + vectorY * t - (1 / 2) * g * t * t;
             Console.WriteLine("Position : (" + x + ", " + y + ")");
         }
     }

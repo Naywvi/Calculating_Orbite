@@ -32,7 +32,10 @@ namespace src.Simulation
             Console.WriteLine("Simulation started with speed = " + speed + " and throwing angle = " + throwingAngle);
             while (pos.y != 0)
             {
+                double distance = constMethods.generateDistance(pos.x, pos.y, planet.diameter, planet.obj.position, planet.obj.position);
                 (double vectorX, double vectorY) = constMethods.GenerateVectorDirection(throwingAngle, speed);
+                double gravityStrength = constMethods.generateGravityStrength(planet.obj.weightObj, Math.Pow(5.972 * 10, 24), distance); // Math.pow(etc) = mass type of a planet (here earth)
+
             }
         }
     }
