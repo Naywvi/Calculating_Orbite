@@ -14,6 +14,7 @@ namespace src.Planet {
             set => _obj = value;
         }
         
+        //Constructor
         public void constructorPlanet(int weightObj,int position,int diameterP){
             diameter = diameterP;
             _obj.constructorObject(weightObj,position);

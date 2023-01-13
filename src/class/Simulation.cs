@@ -15,7 +15,12 @@ namespace src.Simulation{
             get => _throwingAngle;
             set => _throwingAngle = value;
         }
-        public void constructorSimulation(PlanetClass planet,Pos pos){
+
+        //Constructor simulation
+        public void constructorSimulation(PlanetClass planet,Pos pos,int speedP,int throwingAngleP){
+            speed = speedP;
+            throwingAngle = throwingAngleP;
+
             Console.WriteLine(pos.showPosition());
             Console.WriteLine(planet.diameter + " - " + planet.obj.position + " = " + planet.obj.weightObj);
         

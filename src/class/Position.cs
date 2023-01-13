@@ -1,5 +1,7 @@
-namespace src.Position{
-    public class Pos{
+namespace src.Position
+{
+    public class Pos
+    {
         private int _x;
         public int x{
             get => _x;
@@ -15,12 +17,16 @@ namespace src.Position{
         }
         private string yString{
             get => _y.ToString();
-        }
+        } 
+        
+        // function to show position as a string
         public string showPosition(){
-            var postionString = "\n position:  x: "+ this.yString +" km \n            y: "+ this.xString +" km\n";
+            var postionString = "\n position:  x: " + this.yString + " km \n            y: " + this.xString + " km\n";
             return postionString;
         }
-        public void constructorPosition(int xP,int yP){
+
+        //,Consctuctor
+        public void constructorPosition(int xP, int yP){
             x = xP;
             y = yP;
         }
