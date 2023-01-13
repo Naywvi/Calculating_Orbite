@@ -37,9 +37,9 @@ namespace src.Constante
         // this method calculates the Gravity Components 
 
         //ici le F va représenter le résultat de ma force gravitationnelle trouvée grâc au calcul du dessus
-        public double CalculateGravityComposantX(double F, double x1, double x2, double distance)
+        public double CalculateGravityComposantX(double gravityStrength, double x1, double x2, double distance)
         {
-            return F * (x2 - x1) / distance;
+            return gravityStrength * (x2 - x1) / distance;
         }
         // cette methode sera à faire 2 fois pour avoir la composante X et celle de Y
         // ce calcul nous servira pour l'accélération ensuite (il nous faut les composant gravitationnels de x et y)
