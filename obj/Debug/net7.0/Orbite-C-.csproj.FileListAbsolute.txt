@@ -28,3 +28,18 @@ C:/Users/naj_l/Desktop/Orbite-C-/obj/Debug/net7.0/ref/Orbite-C-.dll
 /Users/nagib/Desktop/Orbite-C-/obj/Debug/net7.0/Orbite-C-.pdb
 /Users/nagib/Desktop/Orbite-C-/obj/Debug/net7.0/Orbite-C-.genruntimeconfig.cache
 /Users/nagib/Desktop/Orbite-C-/obj/Debug/net7.0/ref/Orbite-C-.dll
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\bin\Debug\net7.0\Orbite-C-.exe
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\bin\Debug\net7.0\Orbite-C-.deps.json
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\bin\Debug\net7.0\Orbite-C-.runtimeconfig.json
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\bin\Debug\net7.0\Orbite-C-.dll
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\bin\Debug\net7.0\Orbite-C-.pdb
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.AssemblyInfoInputs.cache
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.AssemblyInfo.cs
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.dll
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\refint\Orbite-C-.dll
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.pdb
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\Orbite-C-.genruntimeconfig.cache
+C:\Users\Windows\Desktop\Projet Csharp\Orbite-C-\obj\Debug\net7.0\ref\Orbite-C-.dll
